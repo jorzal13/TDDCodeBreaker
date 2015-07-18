@@ -1,0 +1,44 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+
+//se define el encoding con el que se compila
+[ compileJava, compileTestJava ]*.options*.encoding = 'ISO-8859-1'
+
+//Se asegura compatibilidad con Java 1.7
+sourceCompatibility = 1.7
+targetCompatibility	= 1.7
+
+/*
+
+
+*/
+
+sourceSets{
+	main{
+		java{
+			srcDir 'src'
+		}
+	}
+	test{
+		java{
+			srcDir 'test'
+		}
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {	
+	compile 'junit:junit:4.11'
+}
+
+//La carpeta build hace que se genere nuevamente
+test{
+	jacoco{
+		toolVersion = '0.7.1.201405082137'
+		destinationFile = file("build/jacoco/jacoco.exec")
+	}
+}
+

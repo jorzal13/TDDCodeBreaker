@@ -1,0 +1,18 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="CodeBreakerTest" tests="12" failures="0" errors="0" timestamp="2015-07-18T14:55:45" hostname="localhost.localdomain" time="0.066">
+  <properties/>
+  <testcase name="valorCorrecto" classname="CodeBreakerTest" time="0.008"/>
+  <testcase name="dosXDosRayas" classname="CodeBreakerTest" time="0.001"/>
+  <testcase name="XrayaX" classname="CodeBreakerTest" time="0.001"/>
+  <testcase name="cuatroRayas" classname="CodeBreakerTest" time="0.002"/>
+  <testcase name="unaRaya" classname="CodeBreakerTest" time="0.001"/>
+  <testcase name="dosX" classname="CodeBreakerTest" time="0.001"/>
+  <testcase name="unaX" classname="CodeBreakerTest" time="0.001"/>
+  <testcase name="tresX" classname="CodeBreakerTest" time="0.001"/>
+  <testcase name="tresRayas" classname="CodeBreakerTest" time="0.001"/>
+  <testcase name="ningunValorCoincide" classname="CodeBreakerTest" time="0.001"/>
+  <testcase name="unaXTresRayas" classname="CodeBreakerTest" time="0.001"/>
+  <testcase name="dosRayas" classname="CodeBreakerTest" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
