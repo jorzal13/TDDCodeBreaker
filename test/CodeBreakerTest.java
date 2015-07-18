@@ -13,7 +13,7 @@ public class CodeBreakerTest {
 	public void ningunValorCoincide() {
 		codeBreaker = new CodeBreaker();
 		resultado = codeBreaker.comparar("3675");
-		assertEquals(" :) ", resultado);
+		assertEquals(" ", resultado);
 	}
 
 	@Test
